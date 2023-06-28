@@ -1,33 +1,24 @@
+import { useState } from "react";
+import NoteTextArea from "./NoteTextArea";
 
 function App() {
 
-  let inputtedText = '';
-  let notes = [];
+  const [notes, setNotes] = useState([]);
+
+  const addNewNotesHelperFunction = (newNote) => {
+    const tempNotes = [...notes];
+    tempNotes.push(newNote);
+    setNotes(tempNotes);
+  }
 
   return (
     <>
-      <label htmlFor="note">Enter a note</label>
-
-      <textarea
-        id="note"
-        name="note"
-        rows="5" cols="33"
-        onChange={ (e) => {
-          inputtedText = e.target.value;
-          console.log('[DEBUG] inputtedText = ', inputtedText);
-        }}
-        >
-      </textarea>
-
-      <button
-        type="button"
-        onClick={ () => {
-          notes.push(inputtedText);
-          console.log('[DBEUG] notes array = ', notes);
-        }}
-        >
-        Add Note
-      </button>
+      <NoteTextArea
+        addNewNotes={ addNewNotesHelperFunction }
+      />
+      <ul>
+        { notes?.map((note) => <li key={note}> { note } </li>) }
+      </ul>
     </>
   );
 }
