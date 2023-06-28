@@ -5,7 +5,7 @@ const NoteTextArea =  ({ addNewNotes  }) => {
 
   return (
     <>
-      <label htmlFor="note">Enter a note</label>
+      <label className="text-8xl font-bela font-bold tracking-tighter mt-32 mb-12" htmlFor="note">Enter a note</label>
 
       <textarea
         id="note"
@@ -20,6 +20,7 @@ const NoteTextArea =  ({ addNewNotes  }) => {
 
       <button
         type="button"
+        className="bg-blue-500 hover:bg-blue-700 text-white mt-12 font-bold py-2 px-4 rounded mb-12"
         onClick={ () => {
           addNewNotes(inputtedText);
           setInputtedText('');

@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        noto: ['Noto Sans JP', 'sans-serif']
+        bela: ['Belanosima', 'sans-serif']
       }
     },
   },
