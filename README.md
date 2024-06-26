@@ -18,7 +18,7 @@ Make sure you have the following installed on your machine:
 
 
 ### Running locally
-This boilerplate is created using [Vite](https://vitejs.dev/guide/). To run your Vite React app in development mode, follow the steps below:
+This app is created using [Vite](https://vitejs.dev/guide/). To run your Vite React app in development mode, follow the steps below:
 
 1. Navigate to the Project Directory
 Open your terminal or command prompt and navigate to the root directory of your Vite React app.
