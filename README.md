@@ -4,6 +4,14 @@ This branch includes the changes we made during the first section of the worksho
 
 ![](assets/2023-notes-app_part-1.png)
 
+## Notes from this Session - Feature  1: Place to enter text
+- [`<textarea>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+  - [`<textarea> onChange`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event)
+- [`<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
+  - [`<button> onClick:`](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event)
+- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Code changes we made during this session](https://github.com/rrex-godaddy/workshop-notes-app/pull/2/files)
+
 ## Setup
 
 ### Prerequisites
