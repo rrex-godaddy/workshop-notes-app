@@ -4,6 +4,14 @@ This branch includes the changes we made during the second section of the worksh
 
 ![](assets/2023-notes-app_part-2.png)
 
+
+## Notes from this Session - Feature 2: Place to view all the notes we have entered
+- List
+  - [`<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
+  - [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+- [`useState` Hook](https://react.dev/reference/react/useState)
+- [Code changes we made during this session](https://github.com/rrex-godaddy/workshop-notes-app/pull/4)
+
 ## Setup
 
 ### Prerequisites
