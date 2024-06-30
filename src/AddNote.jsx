@@ -1,13 +1,13 @@
 import { useState } from 'react';
 
-function AddNote() {
+function AddNote({ addNote }) {
   const [textareaValue, setTextareaValue] = useState('');
 
   return (
     <form
       onSubmit={ (event) => {
       event.preventDefault();
-      console.log("I want to add this note", textareaValue);
+      addNote(textareaValue);
       setTextareaValue('');
     }}>
       <label
