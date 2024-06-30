@@ -12,10 +12,10 @@ function AddNote({ addNote }) {
       setTextareaValue('');
     }}>
       <label
-        className="text-2xl mt-4 mb-2 font-grandstander font-extralight"
+        className="text-2xl mt-4 mb-2 font-grandstander font-extralight text-[#315C2B]"
         htmlFor="notes-textarea">Enter your notes</label>
       <textarea
-        className="text-xl border border-gray-300 rounded-lg resize-none min-h-44 mb-4 px-4 py-2 font-light font-grandstander"
+        className="text-xl border border-gray-300 rounded-lg resize-none min-h-44 mb-4 px-4 py-2 font-light font-grandstander bg-[#FAFFFD] text-[#394053]"
         id="notes-textarea"
         name="notes"
         value={ textareaValue }
