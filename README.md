@@ -62,3 +62,7 @@ As you modify your code, you can observe the changes being reflected in the brow
 
 6. Stopping the Development Server
 To stop the development server, go to the terminal or command prompt and press Ctrl + C. Confirm the termination when prompted.
+
+
+### Additional Resources
+If you get an npm authentication error when you run npm install, please follow the steps linked here: [How to Create an npm Account and Log In via Mac Terminal](https://gist.github.com/rrex-godaddy/a4b710102e673f02f59137df21967c25)
