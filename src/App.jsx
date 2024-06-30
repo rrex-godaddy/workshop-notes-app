@@ -1,5 +1,14 @@
-export default function App() {
+import AddNote from "./AddNote"
+
+function App() {
   return (
-    <h1> Hello World </h1>
+    <main>
+      <h1>
+        Notes
+      </h1>
+      <AddNote/>
+    </main>
   )
 }
+
+export default App
