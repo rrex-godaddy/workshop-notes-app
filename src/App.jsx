@@ -16,7 +16,7 @@ function App() {
 
   return (
     <main className="flex flex-col items-center h-full">
-      <h1 className="text-8xl font-black">
+      <h1 className="text-8xl font-black mb-6">
         Notes
       </h1>
       <AddNote
