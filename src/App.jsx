@@ -15,8 +15,8 @@ function App() {
   }
 
   return (
-    <main>
-      <h1>
+    <main className="flex flex-col items-center h-full pt-36">
+      <h1 className="text-8xl font-black mb-6 font-grandstander text-[#EB5E28]">
         Notes
       </h1>
       <AddNote
