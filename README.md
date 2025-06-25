@@ -1,34 +1,79 @@
-# React Workshop: Build a Notes App
-Workshop for building a Notes App using React.
 
-## 2023 Workshop Edition
+# 2025 React Workshop: Build a Notes App
 
-![](assets/2023-notes-app_bare-minimum-version.gif)
+This README provides a step-by-step guide to help you set up and run this app on your local machine.
 
-### Branches
-- [Boilerplate](https://github.com/rrex-godaddy/workshop-notes-app/tree/2023/boilerplate)
-- [Part 1: Add Notes](https://github.com/rrex-godaddy/workshop-notes-app/tree/2023/part/1-add-notes)
-- [Part 2: Display Notes](https://github.com/rrex-godaddy/workshop-notes-app/tree/2023/part/2-display-notes)
-- [Part 3: Styling](https://github.com/rrex-godaddy/workshop-notes-app/tree/2023/part/3-styling)
-- [(Proposed) Bare Minimum Version](https://github.com/rrex-godaddy/workshop-notes-app/tree/2023/bare-minimum-version)
+The starter project includes the base react project configuration needed for the notes app workshop. It also comes with tailwind css prestalled. And all default vite files removed.
 
-### Getting Started
-To begin the workshop, clone this repository and check out the boilerplate branch for current / most recent year:
+
+## Prerequisites
+Make sure you have the following installed on your machine:
+
+- [Node.js v22.17.0](https://nodejs.org/en)
+  - npm v11.4.2 (usually comes bundled with Node.js)
+- Any code editor, I use [vscode](https://code.visualstudio.com/)
+
+
+## Getting Started
+This boilerplate is created using [Vite](https://vitejs.dev/guide/). To run your Vite React app in development mode, follow the steps below:
+
+1. Navigate to the Project Directory
+Open your terminal or command prompt and navigate to the root directory of your Vite React app.
+
 ```bash
-git clone https://github.com/rrex-godaddy/workshop-notes-app.git
 cd workshop-notes-app
-git checkout 2023/boilerplate
 ```
 
+2. Install Dependencies
+Before starting the development server, you need to install the project dependencies specified in the package.json file.
+
+    1. Run the following command to make sure you are using the correct node version:
+
+    ```bash
+    node -v
+    ```
+    Expected node version is v22.17.0
+
+    ```bash
+    npm -v
+    ```
+    Expected npm version is 11.4.2
+
+    2. After that, run the following command to install the packages required for this to run:
+
+    ```bash
+    npm install
+    ```
+    This will fetch and install the required dependencies for your React app using the correct node version specifed in the nvmrc file.
+
+3. Start the Development Server
+Once the dependencies are installed, you can start the development server using the following command:
+
+```bash
+npm run dev
+```
+This command will start the Vite development server, which will compile your React app and provide a development environment.
+
+4. Access Your App
+After starting the development server, you will see a message indicating that the server is running and which port it's listening on. By default, it should be http://localhost:5173. But if you have multiple servers running, it will be a different port number.
+
+Open your web browser and navigate to the provided URL. You should see your Vite React app running in the browser.
+
+5. Begin Development
+You can now start making changes to your React app's source code. Vite will automatically update the app in the browser whenever you save a file, thanks to its hot module replacement feature.
+
+As you modify your code, you can observe the changes being reflected in the browser without needing to manually refresh the page.
+
+6. Stopping the Development Server
+To stop the development server, go to the terminal or command prompt and press Ctrl + C. Confirm the termination when prompted.
+
+
 ### Additional Resources
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- If you get an npm authentication error when you run npm install, please follow the steps linked here: [How to Create an npm Account and Log In via Mac Terminal](https://gist.github.com/rrex-godaddy/a4b710102e673f02f59137df21967c25)
 
-## About This Repository
-This repository contains materials for our React workshop on building a Notes App. Each year's workshop is contained in its own set of branches, prefixed with the year (e.g., `2023/`, `2024/`).
 
-To access a specific year's workshop, check out the corresponding branches.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Documentation Links
+- [vite](https://vite.dev/guide/) 
+- [tailwindcss](https://tailwindcss.com/docs/installation/using-vite)
+- [Google Fonts](https://fonts.google.com/)
