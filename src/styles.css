@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+  --font-heading: "Frijole", system-ui;
+  --font-text: "Nanum Pen Script", cursive;
+  --font-subheading: "Open Sans", sans-serif;
+}
